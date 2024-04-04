@@ -26,12 +26,37 @@ body {
 
 .line {
     height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vw;
 }
 
 .line h1 {
     font-size: 7vw;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+.line h2 {
+    font-size: 6.3vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#line1-part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vw;
+}
+
+#line1-part1 h5,
+#line1-part1 h6 {
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: 'silk serif';
 }
 
 .main {

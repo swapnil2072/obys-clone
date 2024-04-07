@@ -25,5 +25,12 @@ tl.from("line1-part1, .line h2", {
 
 tl.to("#loader", {
   opacity: 0,
-  duration: 4,
+  duration: 0.4,
+  delay: 4,
+});
+
+tl.from("#page1", {
+  delay: 0.2,
+  y: 1200,
+  opacity: 0,
 });

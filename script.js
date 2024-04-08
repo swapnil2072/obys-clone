@@ -31,6 +31,10 @@ tl.to("#loader", {
 
 tl.from("#page1", {
   delay: 0.2,
-  y: 1200,
+  y: 1600,
   opacity: 0,
+  duration: 0.6,
+  ease: Power4,
 });
+
+tl.to("#loader", { display: "none" });

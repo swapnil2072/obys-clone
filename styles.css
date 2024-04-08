@@ -19,7 +19,7 @@ body {
     height: 100%;
     width: 100%;
     position: fixed;
-    background-color: #0b0b0b;
+    background-color: #030303;
     z-index: 999;
     padding: 25vh 10vw;
 }
@@ -34,15 +34,54 @@ body {
 }
 
 .line h1 {
-    font-size: 7vw;
+    font-size: 6.5vw;
     text-transform: uppercase;
     font-weight: 900;
 }
 
 .line h2 {
-    font-size: 6.3vw;
+    font-size: 5vw;
     text-transform: uppercase;
     font-weight: 900;
+    animation-name: now-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes now-animation {
+    0% {
+        font-family: "plain light";
+        -webkit-text-stroke: 0.1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 1;
+    }
+
+    47% {
+        font-family: "plain light";
+        -webkit-text-stroke: 0.1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 0;
+    }
+
+    50% {
+        font-family: "silk serif";
+        -webkit-text-stroke: 0.1px #fff;
+        font-weight: 500;
+        color: transparent;
+        opacity: 1;
+    }
+
+    100% {
+        font-family: "silk serif";
+        -webkit-text-stroke: 0.1px #fff;
+        font-weight: 500;
+        color: transparent;
+        opacity: 0;
+    }
 }
 
 #line1-part1 {
@@ -66,7 +105,7 @@ body {
 
 .main {
     position: relative;
-    background-color: #111;
+    background-color: #030303;
 }
 
 

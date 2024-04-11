@@ -41,4 +41,14 @@ function loadingAnimation() {
   tl.to("#loader", { display: "none" });
 }
 
+function cursorAnimation() {
+  document.addEventListener("mousemove", function (dets) {
+    gsap.to("#cursor", { left: dets.x, top: dets.y });
+  });
+
+  Shery.makeMagnet("#nav-part2 h4");
+}
+
 loadingAnimation();
+cursorAnimation();
+// moving custom cursor with mouse movement.

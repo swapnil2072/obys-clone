@@ -39,6 +39,9 @@ function loadingAnimation() {
   });
 
   tl.to("#loader", { display: "none" });
+  tl.from(".hero h1", {
+    y: 120,
+  });
 }
 
 function cursorAnimation() {

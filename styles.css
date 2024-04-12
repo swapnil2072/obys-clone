@@ -15,7 +15,7 @@ body {
 }
 
 
-#cursor{
+#cursor {
     height: 3vw;
     width: 3vw;
     border-radius: 50%;
@@ -152,6 +152,9 @@ body {
 .hero {
     width: 72%;
     margin-left: 27%;
+    height: fit-content;
+    overflow: hidden;
+    /* for font loading effect */
 }
 
 .hero h1 {
@@ -159,6 +162,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 7vw;
+
 }
 
 .hero:nth-child(2) {

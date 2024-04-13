@@ -22,7 +22,7 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    z-index: 9999;
+    z-index: 999;
     border: 1px solid #ccc;
     mix-blend-mode: difference;
     transform: translate(-50%, -50%);
@@ -155,9 +155,14 @@ body {
     height: fit-content;
     overflow: hidden;
     /* for font loading effect */
+
+    display: flex;
+    align-items: center;
 }
 
-.hero h1 {
+.hero h1,
+.hero h2,
+.hero h3 {
     font-size: 7vw;
     font-weight: 600;
     text-transform: uppercase;
@@ -167,4 +172,10 @@ body {
 
 .hero:nth-child(2) {
     margin-top: 18vh;
+}
+
+.hero h2:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    font-weight: 500;
 }

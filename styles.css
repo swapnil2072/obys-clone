@@ -174,7 +174,7 @@ body {
     line-height: 7vw;
     border-bottom: 0.5vw solid #fff;
     padding-bottom: 1vw;
-    transition: all ease ;
+    transition: all ease;
 }
 
 .hero:nth-child(2) {
@@ -186,4 +186,26 @@ body {
     color: transparent;
     font-weight: 500;
     border-bottom: 0.5vw solid #ffffff00;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+}
+
+#video-container {
+    height: 66vh;
+    width: 71vw;
+    position: relative;
+    left: 28%;
+    background-color: red;
+    background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
